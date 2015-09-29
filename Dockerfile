@@ -27,7 +27,6 @@ RUN chmod +x /home/setup.sh
 VOLUME ["/var/lib/mysql"]
 # Define working directory.
 # Mount with `-v <data-dir>:/var/lib/mysql`
-WORKDIR /var/lib/mysql
 
 # expose service port
 EXPOSE 3306
